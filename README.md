@@ -15,23 +15,23 @@ The repository is organized by book chapter and provides executable demonstratio
 
 | Chapter | Topics and examples |
 | --- | --- |
-| [Chapter 3 — Background](./Chapter%203%20Background) | Two-dimensional power spectra |
-| [Chapter 5 — Sampling and Quantization](./Chapter%205%20Sampling%20and%20Quantization) | Sampling, aliasing, uniform quantization, and Lloyd–Max quantization |
+| [Chapter 3 — Theoretical Background](./Chapter%203%20Theoretical%20Background) | Two-dimensional power spectra |
+| [Chapter 5 — Image Sampling and Quantization](./Chapter%205%20Image%20Sampling%20and%20Quantization) | Sampling, aliasing, uniform quantization, and Lloyd–Max quantization |
 | [Chapter 6 — Image Transforms](./Chapter%206%20Image%20Transforms) | DFT, DCT, Hadamard transforms, basis functions, and PCA |
-| [Chapter 7 — Wavelet Transforms](./Chapter%207%20Wavelet%20Transforms) | DWT, compression, denoising, image fusion, STFT, and the Mexican hat wavelet |
+| [Chapter 7 — Wavelet Transform](./Chapter%207%20Wavelet%20Transform) | DWT, compression, denoising, image fusion, STFT, and the Mexican hat wavelet |
 | [Chapter 8 — Image Enhancement](./Chapter%208%20Image%20Enhancement) | Edge detection and template matching |
 | [Chapter 9 — Image Modeling](./Chapter%209%20Image%20Modeling) | Two-dimensional autoregressive image models and covariance |
 | [Chapter 10 — Image Restoration](./Chapter%2010%20Image%20Restoration) | Inverse, Kalman, and Wiener filtering |
-| [Chapter 11 — Image Data Compression](./Chapter%2011%20Image%20Data%20Compression) | Predictive encoding |
+| [Chapter 11 — Image Compression and Encoding](./Chapter%2011%20Image%20Compression%20and%20Encoding) | Predictive encoding |
 | [Chapter 12 — Image Segmentation](./Chapter%2012%20Image%20Segmentation) | Otsu thresholding, MRF/K-means, and gradient vector flow |
 | [Chapter 13 — Feature Extraction](./Chapter%2013%20Feature%20Extraction) | Fourier, Hu, and Zernike descriptors; correlograms; PCA |
 | [Chapter 14 — Morphological Operations](./Chapter%2014%20Morphological%20Operations) | Mathematical morphology and hierarchical texture decomposition |
 | [Chapter 15 — Image Reconstruction](./Chapter%2015%20Image%20Reconstruction) | Radon-transform reconstruction using phantom and medical images |
 | [Chapter 16 — Traditional Image Classification](./Chapter%2016%20Traditional%20Image%20Classification) | Naive Bayes classification |
-| [Chapter 17 — Elements of Machine Learning](./Chapter%2017%20Elements%20of%20ML) | Autoregressive forecasting |
-| [Chapter 18 — Layered Machines](./Chapter%2018%20Layered%20Machines) | Multilayer perceptrons and convolutional neural networks |
-| [Chapter 19 — Autoencoders in DIP](./Chapter%2019%20Autoencoders%20in%20DIP) | Contractive autoencoders and image denoising |
-| [Chapter 20 — Applications of ML in DIP](./Chapter%2020%20Applications%20of%20ML%20in%20DIP) | Associative memory, self-organizing maps, and stereo vision |
+| [Chapter 17 — Modern Image Classification: Elements of Machine Learning](./Chapter%2017%20Modern%20Image%20Classification%20-%20Elements%20of%20Machine%20Learning) | Autoregressive forecasting |
+| [Chapter 18 — Modern Image Classification-Layered Machines](./Chapter%2018%20Modern%20Image%20Classification-Layered%20Machines) | Multilayer perceptrons and convolutional neural networks |
+| [Chapter 19 — Dimensionality Reduction Networks and Autoencoders](./Chapter%2019%20Dimensionality%20Reduction%20Networks%20and%20Autoencoders) | Contractive autoencoders and image denoising |
+| [Chapter 20 — AI Applications in Digital Image Processing](./Chapter%2020%20AI%20Applications%20in%20Digital%20Image%20Processing) | Associative memory, self-organizing maps, and stereo vision |
 
 ## Getting started
 
@@ -90,10 +90,10 @@ Keep the directory structure intact because many notebooks load files by relativ
 
 ```text
 Digital-Image-Processing/
-├── Chapter 3 Background/
-├── Chapter 5 Sampling and Quantization/
+├── Chapter 3 Theoretical Background/
+├── Chapter 5 Image Sampling and Quantization/
 ├── ...
-├── Chapter 20 Applications of ML in DIP/
+├── Chapter 20 AI Applications in Digital Image Processing/
 ├── Data/
 └── README.md
 ```
