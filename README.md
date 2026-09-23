@@ -29,9 +29,9 @@ The repository is organized by book chapter and provides executable demonstratio
 | [Chapter 15 — Image Reconstruction](./Chapter%2015%20Image%20Reconstruction) | Radon-transform reconstruction using phantom and medical images |
 | [Chapter 16 — Traditional Image Classification](./Chapter%2016%20Traditional%20Image%20Classification) | Naive Bayes classification |
 | [Chapter 17 — Modern Image Classification: Elements of Machine Learning](./Chapter%2017%20Modern%20Image%20Classification%20-%20Elements%20of%20Machine%20Learning) | Autoregressive forecasting |
-| [Chapter 18 — Modern Image Classification-Layered Machines](./Chapter%2018%20Modern%20Image%20Classification-Layered%20Machines) | Multilayer perceptrons and convolutional neural networks |
+| [Chapter 18 — Modern Image Classification-Layered Machines](./Chapter%2018%20Modern%20Image%20Classification-Layered%20Machines) | Multilayer perceptrons, convolutional neural networks, and self-organizing maps |
 | [Chapter 19 — Dimensionality Reduction Networks and Autoencoders](./Chapter%2019%20Dimensionality%20Reduction%20Networks%20and%20Autoencoders) | Contractive autoencoders and image denoising |
-| [Chapter 20 — AI Applications in Digital Image Processing](./Chapter%2020%20AI%20Applications%20in%20Digital%20Image%20Processing) | Associative memory, self-organizing maps, and stereo vision |
+| [Chapter 20 — AI Applications in Digital Image Processing](./Chapter%2020%20AI%20Applications%20in%20Digital%20Image%20Processing) | Associative memory and stereo vision |
 
 ## Getting started
 
@@ -82,7 +82,7 @@ Place the repository at that location or update `work_path` to point to your cop
 
 ## Data
 
-The [`Data`](./Data) directory contains the images, MATLAB arrays, NumPy arrays, and example datasets used by the notebooks. It currently contains approximately 253 files totaling 474 MiB, so the initial clone may take some time.
+The [`Data`](./Data) directory contains the images, MATLAB arrays, NumPy arrays, and example datasets used by the notebooks. It currently contains 260 files totaling approximately 475 MiB, so the initial clone may take some time.
 
 Keep the directory structure intact because many notebooks load files by relative name or through `work_path`.
 
